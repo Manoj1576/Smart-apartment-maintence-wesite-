@@ -1,0 +1,23 @@
+#login {
+    background-color: lightblue;
+    width: 40%;
+    height: 70%;
+    padding: 40% 0 0 0 ;
+    margin-left: 58%;
+    margin-top: 2%;
+    border: solid black;
+}
+.login_box{
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+}
+#login_label{
+    padding: 10px 0 0 0;
+    margin-bottom: 20px;
+}
+.Apartment{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: crimson;
+  }

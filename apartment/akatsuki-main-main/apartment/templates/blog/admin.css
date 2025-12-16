@@ -1,0 +1,66 @@
+.navigation {
+    list-style-type: none;
+    margin: 50;
+    padding: 0;
+    float: inline-end;
+    margin-top: 20px;
+    font-size: large;
+    margin-right: 20px;
+    
+  }
+  
+  li {
+    display: inline;
+    padding: 10px 50px 0 0;
+
+  }
+  .navigation_pages{
+    color: black;
+    text-decoration: none;
+  }
+  .Apartment{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: crimson;
+  }
+  #room_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    position: relative;
+    top: 50px;left: 10%;right: 10%;
+    width: 80%;
+    height: 500px;
+  }
+  .room_maintenance{
+    border: solid black 1px;
+    border-radius: 8px;
+  }
+  .maintenance_respond{
+    position: relative;
+    top: 50%;left: 40%;
+    border-radius: 5px;
+  }#bill_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    position: relative;
+    top: 50px;left: 10%;right: 10%;
+    width: 80%;
+    height: 500px;
+  }
+  .room_bills{
+    border: solid black 1px;
+    border-radius: 8px;
+  }
+  .bill_send{
+    position: relative;
+    top: 10%;left: 40%;
+    border-radius: 5px;
+  }
+.bill_inputs{
+    margin-left: 20%;
+    
+}
